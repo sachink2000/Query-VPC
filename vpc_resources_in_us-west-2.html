@@ -1,0 +1,119 @@
+
+<html>
+<head>
+    <title>AWS VPC Resources in us-west-2</title>
+</head>
+<body>
+    <h1>AWS VPC Resources in Region: us-west-2</h1>
+    
+    <h2>VPCs</h2>
+    <table border="1">
+        <tr>
+            <th>VPC ID</th>
+            <th>CIDR Block</th>
+            <th>State</th>
+            <th>Is Default</th>
+        </tr>
+        
+        <tr>
+            <td>vpc-04ae2cda703d6ba25</td>
+            <td>172.31.0.0/16</td>
+            <td>available</td>
+            <td>True</td>
+        </tr>
+        
+    </table>
+    
+    <h2>Subnets</h2>
+    <table border="1">
+        <tr>
+            <th>Subnet ID</th>
+            <th>VPC ID</th>
+            <th>CIDR Block</th>
+            <th>Availability Zone</th>
+        </tr>
+        
+        <tr>
+            <td>subnet-063d8bc3324c58d15</td>
+            <td>vpc-04ae2cda703d6ba25</td>
+            <td>172.31.16.0/20</td>
+            <td>us-west-2b</td>
+        </tr>
+        
+        <tr>
+            <td>subnet-0555ce28cc30d08f9</td>
+            <td>vpc-04ae2cda703d6ba25</td>
+            <td>172.31.0.0/20</td>
+            <td>us-west-2c</td>
+        </tr>
+        
+        <tr>
+            <td>subnet-07e30d56caabe8786</td>
+            <td>vpc-04ae2cda703d6ba25</td>
+            <td>172.31.32.0/20</td>
+            <td>us-west-2a</td>
+        </tr>
+        
+        <tr>
+            <td>subnet-07c5ef166fc0d38cb</td>
+            <td>vpc-04ae2cda703d6ba25</td>
+            <td>172.31.48.0/20</td>
+            <td>us-west-2d</td>
+        </tr>
+        
+    </table>
+
+    <h2>Route Tables</h2>
+    <table border="1">
+        <tr>
+            <th>Route Table ID</th>
+            <th>VPC ID</th>
+            <th>Routes</th>
+        </tr>
+        
+        <tr>
+            <td>rtb-06619b907f6c37446</td>
+            <td>vpc-04ae2cda703d6ba25</td>
+            <td>2</td>  <!-- Display number of routes -->
+        </tr>
+        
+    </table>
+
+    <h2>Security Groups</h2>
+    <table border="1">
+        <tr>
+            <th>Security Group ID</th>
+            <th>VPC ID</th>
+            <th>Group Name</th>
+            <th>Description</th>
+        </tr>
+        
+        <tr>
+            <td>sg-09a238bfa3a1b4dc5</td>
+            <td>vpc-04ae2cda703d6ba25</td>
+            <td>default</td>
+            <td>default VPC security group</td>
+        </tr>
+        
+    </table>
+
+    <h2>Network ACLs</h2>
+    <table border="1">
+        <tr>
+            <th>Network ACL ID</th>
+            <th>VPC ID</th>
+            <th>Default</th>
+            <th>Associations</th>
+        </tr>
+        
+        <tr>
+            <td>acl-09e1f7cb8fb246ea0</td>
+            <td>vpc-04ae2cda703d6ba25</td>
+            <td>False</td>
+            <td>4</td>  <!-- Display number of associations -->
+        </tr>
+        
+    </table>
+
+</body>
+</html>
